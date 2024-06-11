@@ -6,6 +6,13 @@ function esNumeroPrimo(numero) {
   // IMPORTANTE: Recuerda que un número primo es aquel que
   // solo es divisible por sí mismo y por 1.
   // Tu código:
+  if (numero <= 3){
+    return true;
+  }
+  if (numero % 2 ===0 || numero % 3 ===0) {
+    return false;
+  } else return true;
 }
 
 module.exports = esNumeroPrimo;
+console.log(esNumeroPrimo(2));

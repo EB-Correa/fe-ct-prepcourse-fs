@@ -5,6 +5,9 @@ function suma(x, y) {
   // 5, 5 ---> 10
   // -5, 5 ---> 0
   // Tu código:
+  let resultado = (x + y);
+  return resultado;
 }
 
 module.exports = suma; 
+console.log (suma(45500,3600));
